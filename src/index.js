@@ -1,10 +1,11 @@
-import 'babel-polyfill';
+function  f1() {
+    let n = 5;
+    if(true) {
+        let n = 10;
+    }
+    console.log(n);
+}
 
-Array.from('aaaa');
+const PI = 3.1415;
 
-const sum = (a, b) => a + b;
-
-let x = sum(3,5);
-let y = sum(3,5);
-
-console.log(x,y);
+console.log(PI);

@@ -1,20 +1,13 @@
-'use strict';
+"use strict";
 
-var _from = require('babel-runtime/core-js/array/from');
+function f1() {
+    var n = 5;
+    if (true) {
+        var _n = 10;
+    }
+    console.log(n);
+}
 
-var _from2 = _interopRequireDefault(_from);
+var PI = 3.1415;
 
-require('babel-polyfill');
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-(0, _from2.default)('aaaa');
-
-var sum = function sum(a, b) {
-  return a + b;
-};
-
-var x = sum(3, 5);
-var y = sum(3, 5);
-
-console.log(x, y);
+console.log(PI);
